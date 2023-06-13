@@ -1,0 +1,14 @@
+Docker learning purpose 
+Website link https://www.docker.com/
+scroll down select the developers in that select the Docs and select the Get started
+
+Why we are using the docker ?
+before we are implementing the docker in that scenerio if create a project he will be working in the windows function and he send the project to the tester for testing puropse he will be working in the  Mac 
+so that time it will be heachache for the both the person this is known as cross platform 
+
+Docker era 
+Now same example we are using  when the developer working in the windows it has same folder like the configureation file , installing file, similarily docker file also avaible when the develop send the code to tester he will sending only the docker file so now tester run the docker comment it will deployed accordingly 
+
+What is the docker?
+Docker is a software platform that allows us to build, test ,deploy applications quickly. 
+Docker package software into standarized units 
