@@ -11,4 +11,5 @@ Now same example we are using  when the developer working in the windows it has 
 
 What is the docker?
 Docker is a software platform that allows us to build, test ,deploy applications quickly. 
-Docker package software into standarized units 
+Docker package software into standarized units is called containers
+Docker can help us in scaling and deployment
