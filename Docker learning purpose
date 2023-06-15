@@ -13,3 +13,34 @@ What is the docker?
 Docker is a software platform that allows us to build, test ,deploy applications quickly. 
 Docker package software into standarized units is called containers
 Docker can help us in scaling and deployment
+
+Mono lithic architeure 
+It means all the operation is done in the single machine 
+Micro lithic architeure
+It means each operation peformed on the separate machine so the process will talk place 
+
+Difference between mono lithic architeure
+Mono lithic architeure
+Tightly coupled it means everything in the single machine 
+Not so good at fault tolerance
+Difficult to scale 
+work well with lesser traffice
+Less moduraity 
+Disadvantage
+less cpmplexcity
+low cost
+low maintainablity
+Average programmers
+
+Micro lithic architeure
+loosly coupled
+good at fault tolerance
+esay to scale 
+work well in all condition.
+High modurity
+Disadvantage
+high complexcity
+High cost 
+hight maintainablity
+Very skilled programmers
+
