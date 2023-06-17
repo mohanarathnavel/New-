@@ -48,5 +48,37 @@ High cost
 hight maintainablity
 Very skilled programmers
 
+We were using this concept for docker compose 
+
+Docker containers
+Automatically comes up with docker name containers if we want we can change the name of our purpose
+
+
+Docker Vs Virutial machine 
+Timing 1:54 
+INFRA means RAM , ROM 
+HOST OS means which system is operating 
+DOCKER ENGINE is utilize everything that HOST OS ,INFRA 
+
+Virtual machine
+HYPERVISOK it creates muptiple enviroment for different operatating systems over that software will run  
+Timing 2:02
+The main differents between docker and virtual miachine
+docker is working only in single OS but virtual miachine can operate in different and mutiple OS 
+2:20
+If any case Docker is not installed in the system you can use the docker playground 
+give start and click the new instances
+run the commabd dockker image ls it means whatever images in the docker hub
+if you want any image like sql goto docker hub search sql you will find the text docker sql pull 
+copy that paste in the dockker playground you will be pull sql into system
+if you want use any version 
+write docker run version number it wil be starting
+if any you want to see the container type the docker ps --a 
+it will list all the containers
+if you want to delete the containers 
+write docker rm  
+if you want to delete the entire container use the command the docker rm $(dockerps -a -q)
+
+you can delete the image by using docker rmi image id it will delete the particular image 
 
 
