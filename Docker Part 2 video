@@ -1,0 +1,62 @@
+First you have open the docker in your desktop and once comes green colour leftside corner 
+open the windows powershell 
+**write the command docker --version -> to check whether docker is working properly
+Now we are pulling the docker image so that we have the docker file in that we search nglinux so that we can pull that process 
+**Now in actual format -- docker pull nglinux:latest --- if you want to use any of the tags we can mentionit as latest
+if you want to see how many image is running write a command
+docker pull image ls -- Now all the containers you can able to see 
+if you want to run the pull image 
+before that you need to find the image ID so that you can call that easily first dights
+**docker run first four dighit (a99a)
+you can run by image 
+**docker run nignux -- you can run using the name also 
+suppose you need to change into custom name 
+**docker run --name nignuux -p nignux/bitmal --> so you can keep custom name to it .nignuux is new name nignux/bitmal is old namee
+if you want to see what are the container is running write the command
+**docker ps -- it will shows running containers
+and it will display the results 
+suppose we you want to stop the containers because it will consuming all of the resource in the local system 
+**docker stop ee36(contianer ID four dight number)
+if you want to see the all the container running or stopped 
+**docker ps -a --> it shows all the container it what exited or running 
+
+if suppose there are multiple container is running by using trone command it can delete whatare the containers is stopped 
+
+Port mapping 
+if suppose we know any port is free so we want mapped 
+so procedure is 
+docker run -p 9000:8080 bitnami/nignux  ---> normal format to follow 
+9000 -- is free port which we already know
+8080 -- old port number which is currrently running 
+when you use localhost 9000 it will so the nignux page 
+if suppose 8080 is busy so that mapping 9000 it will use it ---- no need down the default 8080 instead it changing to new port 9000 , this is the utility of port mapping 
+
+some basics command
+if suppose you need to get the all the log for that
+docker log containers name ---> you need to mention the container name to pull
+
+if suppose the we need to the container 
+docker exec -it fo49 bash   ---->  exec mean executative ,i mean indirect t stands for terminal , f049 - container ID ,
+if press enter
+root@f049 --> it will into the conatiner now we can see the ls , ps 
+if suppose the we want to exit container 
+exit --> just type and click the enter 
+
+Everything will work in visual studio code
+Create the docker file 
+first you have to create app
+1:41
+after that create docker file 
+touch Docker file --> always D is in capital
+before writing the docker file you need to mention base image --> that is which version
+1:52 
+we are going to buit docker image 
+docker buit -t helopython :1.0.
+
+In short brief 
+first we have to create code for the app 
+after that in requiment tab we have to add which software is used
+open the docker file in that add the procedure from where it to start and port access etc 
+after you have pull that image 
+after that run the image 
+if its correct everything will executive 
