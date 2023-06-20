@@ -48,6 +48,40 @@ High cost
 hight maintainablity
 Very skilled programmers
 
+Basic different between githuub and docker compose
+
+In github we can use all the indiuivuals code can accessable easily like sql , python 
+In docker compose  we are createing indiviuals file and combaininig into single file so it can be accessable easily by using single code 
+
+Docker: Docker is an open-source platform that enables the creation, distribution, and execution of containerized applications. 
+It provides a lightweight virtualization environment, called a container,
+where applications can run in an isolated manner without interfering with the underlying system. 
+Docker allows developers to package an application and its dependencies into a single unit called a Docker image. 
+These images can be easily deployed and run on any system that has Docker installed, making application deployment more portable and consistent across different environments.
+
+
+Docker Compose: Docker Compose, on the other hand, is a tool specifically designed for managing multi-container applications. 
+It is used to define and run applications composed of multiple containers. 
+With Docker Compose, you can define a multi-container environment using a YAML file called a Compose file. This file describes the services, networks, and volumes required for your application and their relationships. 
+Docker Compose then uses this file to create and manage the containers as a cohesive unit, allowing you to start, stop, and scale your application with a single command.
+
+In summary, Docker is the core technology that enables containerization and allows you to build and run individual containers, while Docker Compose is a higher-level tool that simplifies the management of multi-container applications by providing an easy way to define and orchestrate them.
+
+Docker image 
+It is create using the by using the set of instrution is called docker file and this file are immutabel cannot be modified 
+
+Images: Docker images are the building blocks used to create and run containers.
+An image is a read-only template that contains all the necessary files, libraries, and dependencies required to run a specific application or service. 
+It includes the application's code, runtime environment, system tools, and any additional dependencies defined during the image creation process. 
+Docker images are built using a set of instructions defined in a file called a Dockerfile. Images are stored in a registry (such as Docker Hub or a private registry) and can be pulled down to create containers.
+Images are immutable, meaning they cannot be modified once created, and any changes made to a container are stored as a separate layer called a container layer.
+
+Docker container 
+Containers: Containers are lightweight, isolated, and executable environments that encapsulate an application along with its dependencies and configurations. 
+They provide a consistent runtime environment, ensuring that the application behaves the same way regardless of the underlying system. 
+Containers are based on Docker images and can be run on any system that has Docker installed. 
+Each container runs as an isolated process, with its own filesystem, networking, and resource constraints. Containers are portable, scalable, and can be easily moved or replicated across different environments.
+
 We were using this concept for docker compose 
 
 Docker containers
